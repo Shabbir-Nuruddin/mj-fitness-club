@@ -1,5 +1,4 @@
-import "@fontsource/mukta/600.css";
-import "@fontsource/mukta/800.css";
+import "@fontsource/teko/600.css";
 import type { Site } from "./lib";
 
 export const SITE: Site = {
@@ -19,57 +18,83 @@ export const SITE: Site = {
   "hours": [
     [],
     [
-      5.5,
-      11,
-      17,
-      22
+      [
+        5.5,
+        11
+      ],
+      [
+        17,
+        22
+      ]
     ],
     [
-      5.5,
-      11,
-      17,
-      22
+      [
+        5.5,
+        11
+      ],
+      [
+        17,
+        22
+      ]
     ],
     [
-      5.5,
-      11,
-      17,
-      22
+      [
+        5.5,
+        11
+      ],
+      [
+        17,
+        22
+      ]
     ],
     [
-      5.5,
-      11,
-      17,
-      22
+      [
+        5.5,
+        11
+      ],
+      [
+        17,
+        22
+      ]
     ],
     [
-      5.5,
-      11,
-      17,
-      22
+      [
+        5.5,
+        11
+      ],
+      [
+        17,
+        22
+      ]
     ],
     [
-      5.5,
-      11,
-      17,
-      22
+      [
+        5.5,
+        11
+      ],
+      [
+        17,
+        22
+      ]
     ]
   ],
   "theme": {
-    "dark": false,
-    "bg": "#ffffff",
-    "bg2": "#f4f4f2",
-    "panel": "#ffffff",
-    "ink": "#111111",
-    "ink2": "#4b4b4b",
-    "ink3": "#858585",
-    "line": "#e4e4e0",
-    "onAccent": "#ffffff",
-    "display": "Mukta",
-    "weight": 800,
-    "upper": false,
-    "accent": "#dc2626"
+    "dark": true,
+    "bg": "#0a0d06",
+    "bg2": "#13150f",
+    "panel": "#191c15",
+    "ink": "#f4f3e8",
+    "ink2": "#c1c0b6",
+    "ink3": "#84857c",
+    "line": "#252821",
+    "accent": "#b8f03a",
+    "onAccent": "#1d2609",
+    "display": "Teko",
+    "weight": 600,
+    "upper": true
   },
+  "scene": "barbell",
+  "align": "right",
   "hero": {
     "title": [
       {
@@ -85,13 +110,7 @@ export const SITE: Site = {
       "en": "4.9 on Google from 189 reviews. Members write about owner and trainer Satbir's bodybuilding experience, modern machines and an affordable unisex gym in Sector 9.",
       "hi": "गूगल पर 189 रिव्यू से 4.9। मेंबर मालिक और ट्रेनर सतबीर के बॉडीबिल्डिंग अनुभव, आधुनिक मशीनों और सेक्टर 9 के किफ़ायती यूनिसेक्स जिम के बारे में लिखते हैं।"
     },
-    "fallback": "/img/p6.jpg",
-    "slides": [
-      "/img/p6.jpg",
-      "/img/p9.jpg",
-      "/img/p1.jpg",
-      "/img/p16.jpg"
-    ]
+    "fallback": "/img/p6.jpg"
   },
   "marquee": [
     "Bodybuilding",
@@ -330,5 +349,40 @@ export const SITE: Site = {
       "en": "Hi MJ Fitness Club, I'd like to enquire:",
       "hi": "नमस्ते MJ फ़िटनेस क्लब, मुझे जानकारी चाहिए:"
     }
-  }
+  },
+  "story": [
+    {
+      "kicker": {
+        "en": "Coach",
+        "hi": "कोच"
+      },
+      "title": {
+        "en": "Satbir looks after everyone.",
+        "hi": "सतबीर ख़ुद सबका ध्यान रखते हैं।"
+      },
+      "quote": "He personally looks after each one of us."
+    },
+    {
+      "kicker": {
+        "en": "Bodybuilding",
+        "hi": "बॉडीबिल्डिंग"
+      },
+      "title": {
+        "en": "Built on bodybuilding.",
+        "hi": "बॉडीबिल्डिंग का पूरा अनुभव।"
+      },
+      "quote": "He has very good experience in bodybuilding and fitness."
+    },
+    {
+      "kicker": {
+        "en": "Fees",
+        "hi": "फ़ीस"
+      },
+      "title": {
+        "en": "Unisex, and on budget.",
+        "hi": "यूनिसेक्स, और बजट में।"
+      },
+      "quote": "Best unisex gym in budget friendly amount."
+    }
+  ]
 };
